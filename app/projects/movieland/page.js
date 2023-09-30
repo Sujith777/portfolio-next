@@ -28,7 +28,7 @@ const Movieland = () => {
           <h2>Overview</h2>
           <p>
             This is a responsive layout for a movie service landing page that is
-            built using ReactJs. It uses the TMDb API to fetch data to be
+            built using ReactJs. It uses the OMDb API to fetch data to be
             displayed and has a search feature to filter the entries based on
             names.
           </p>
@@ -51,7 +51,7 @@ const Movieland = () => {
                 <RiRadioButtonFill /> JavaScript
               </p>
               <p className="text-gray-600 items-center py-2 flex">
-                <RiRadioButtonFill /> TMDb API
+                <RiRadioButtonFill /> OMDb API
               </p>
             </div>
           </div>

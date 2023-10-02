@@ -4,6 +4,7 @@ import {
   hoobank,
   movieland,
   tindog,
+  netflix,
 } from "../public/assets/projects/projects";
 import ProjectItem from "./ProjectItem";
 
@@ -14,6 +15,13 @@ const Projects = () => {
         <p className="text-xl tracking-widest text-[#5651e5]">Projects</p>
         <h2 className="py-4">What I&apos;ve built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Netflix Clone"
+            backgroundImg={netflix}
+            projectUrl="/projects/netflix-clone"
+            technologies="ReactJS"
+          />
+
           <ProjectItem
             title="Hoobank Landing Page"
             backgroundImg={hoobank}

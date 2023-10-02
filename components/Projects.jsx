@@ -4,7 +4,7 @@ import {
   hoobank,
   movieland,
   tindog,
-  netflix,
+  notflix,
 } from "../public/assets/projects/projects";
 import ProjectItem from "./ProjectItem";
 
@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Netflix Clone"
-            backgroundImg={netflix}
+            backgroundImg={notflix}
             projectUrl="/projects/netflix-clone"
             technologies="ReactJS"
           />

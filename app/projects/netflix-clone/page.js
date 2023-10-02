@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-import netflix from "@/public/assets/projects/netflix.png";
+import notflix from "@/public/assets/projects/notflix.png";
 
 const NetflixClone = () => {
   return (
@@ -11,8 +11,8 @@ const NetflixClone = () => {
         <div className="absolute top-0 left-0 w-full h-[50vh] lg:h-[60vh] bg-black/80 z-10 " />
         <Image
           className="absolute z-1"
-          src={netflix}
-          alt="netflix"
+          src={notflix}
+          alt="notflix"
           style={{ objectFit: "cover" }}
           fill={true}
         />

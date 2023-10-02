@@ -2,6 +2,6 @@ import foodapp from "./foodapp.png";
 import hoobank from "./hoobank.png";
 import movieland from "./movieland.png";
 import tindog from "./tindog.png";
-import netflix from "./netflix.png";
+import notflix from "./notflix.png";
 
-export { netflix, foodapp, hoobank, movieland, tindog };
+export { notflix, foodapp, hoobank, movieland, tindog };

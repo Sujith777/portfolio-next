@@ -18,7 +18,7 @@ const FoodApp = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Food Order App</h2>
-          <h3>ReactJS</h3>
+          <h3>ReactJS / Firebase</h3>
         </div>
       </div>
 
@@ -27,9 +27,9 @@ const FoodApp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a front-end layout for a food order app landing page that is
-            built using ReactJS. It includes a list of available items and a
-            cart functionality.
+            This is a full-stack food order app that is built using ReactJS. It
+            includes a list of available items and a cart functionality. The
+            data is handled using the real-time database of a firebase backend.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <Link href="https://bsp-food-order-app.netlify.app/">Demo</Link>
@@ -48,6 +48,9 @@ const FoodApp = () => {
               </p>
               <p className="text-gray-600 items-center py-2 flex">
                 <RiRadioButtonFill /> JavaScript
+              </p>
+              <p className="text-gray-600 items-center py-2 flex">
+                <RiRadioButtonFill /> Firebase
               </p>
             </div>
           </div>

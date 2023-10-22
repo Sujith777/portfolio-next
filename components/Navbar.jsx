@@ -20,7 +20,9 @@ const Navbar = () => {
       path === "/projects/hoobank" ||
       path === "/projects/foodapp" ||
       path === "/projects/movieland" ||
-      path === "/projects/tindog"
+      path === "/projects/tindog" ||
+      path === "/projects/netflix-clone" ||
+      path === "/projects/booking-app"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");

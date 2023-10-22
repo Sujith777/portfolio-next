@@ -5,6 +5,7 @@ import {
   movieland,
   tindog,
   notflix,
+  bookingapp,
 } from "../public/assets/projects/projects";
 import ProjectItem from "./ProjectItem";
 
@@ -15,6 +16,13 @@ const Projects = () => {
         <p className="text-xl tracking-widest text-[#5651e5]">Projects</p>
         <h2 className="py-4">What I&apos;ve built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Booking App"
+            backgroundImg={bookingapp}
+            projectUrl="/projects/booking-app"
+            technologies="MongoDB, Express, React, Node"
+          />
+
           <ProjectItem
             title="Netflix Clone"
             backgroundImg={notflix}

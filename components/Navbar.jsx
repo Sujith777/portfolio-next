@@ -22,7 +22,8 @@ const Navbar = () => {
       path === "/projects/movieland" ||
       path === "/projects/tindog" ||
       path === "/projects/netflix-clone" ||
-      path === "/projects/booking-app"
+      path === "/projects/booking-app" ||
+      path === "/projects/netflix-clone-next"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");

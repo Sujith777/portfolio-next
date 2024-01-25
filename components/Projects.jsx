@@ -18,7 +18,7 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Booking App"
+            title="Netflix Clone"
             backgroundImg={netflixClone}
             projectUrl="/projects/netflix-clone-next"
             technologies="NextJS, Typescript, Prisma, MongoDB"

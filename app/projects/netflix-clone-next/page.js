@@ -32,7 +32,9 @@ const page = () => {
             Object-Relational Mapping (ORM). It is built using Typescript.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <Link href="https://netflix-clone-next-iota.vercel.app/">Demo</Link>
+            <Link href="https://billasp-netflix-clone-next.vercel.app/">
+              Demo
+            </Link>
           </button>
           <button className="px-8 py-2 mt-4">
             <Link href="https://github.com/Sujith777/netflix-clone-next">

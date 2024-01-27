@@ -7,6 +7,8 @@ import {
   notflix,
   bookingapp,
   netflixClone,
+  ecommerce,
+  snapgram,
 } from "../public/assets/projects/projects";
 import ProjectItem from "./ProjectItem";
 
@@ -17,6 +19,20 @@ const Projects = () => {
         <p className="text-xl tracking-widest text-[#5651e5]">Projects</p>
         <h2 className="py-4">What I&apos;ve built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="E-Commerce website"
+            backgroundImg={ecommerce}
+            projectUrl="/projects/ecommerce"
+            technologies="NextJS, Typescript, Prisma, PostgreSQL"
+          />
+
+          <ProjectItem
+            title="Snapgram"
+            backgroundImg={snapgram}
+            projectUrl="/projects/snapgram"
+            technologies="ReactJS, Appwrite, React Query, Typescript, Prisma"
+          />
+
           <ProjectItem
             title="Netflix Clone"
             backgroundImg={netflixClone}
@@ -32,7 +48,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Netflix Clone"
+            title="Netflix UI Clone"
             backgroundImg={notflix}
             projectUrl="/projects/netflix-clone"
             technologies="ReactJS"

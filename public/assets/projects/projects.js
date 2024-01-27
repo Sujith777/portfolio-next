@@ -5,6 +5,8 @@ import tindog from "./tindog.png";
 import notflix from "./notflix.png";
 import bookingapp from "./bookingapp.png";
 import netflixClone from "./netflix-clone.png";
+import snapgram from "./snapgram.png";
+import ecommerce from "./ecommerce.png";
 
 export {
   notflix,
@@ -14,4 +16,6 @@ export {
   tindog,
   bookingapp,
   netflixClone,
+  snapgram,
+  ecommerce,
 };

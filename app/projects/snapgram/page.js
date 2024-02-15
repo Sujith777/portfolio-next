@@ -19,8 +19,7 @@ const Snapgram = () => {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Snapgram, a social media application</h2>
           <h3>
-            ReactJS / Typescript / Prisma / Appwrite / React Query / Tailwind
-            CSS{" "}
+            NextJS / Typescript / Prisma / Appwrite / React Query / Tailwind CSS{" "}
           </h3>
         </div>
       </div>

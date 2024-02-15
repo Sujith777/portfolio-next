@@ -9,6 +9,7 @@ import {
   netflixClone,
   ecommerce,
   snapgram,
+  saas_app,
 } from "../public/assets/projects/projects";
 import ProjectItem from "./ProjectItem";
 
@@ -31,6 +32,13 @@ const Projects = () => {
             backgroundImg={snapgram}
             projectUrl="/projects/snapgram"
             technologies="ReactJS, Appwrite, React Query, Typescript, Prisma"
+          />
+
+          <ProjectItem
+            title="SaaS Website"
+            backgroundImg={saas_app}
+            projectUrl="/projects/saas-app"
+            technologies="NextJS, Typescript, Prisma, Supabase, Stripe, KindeAuth"
           />
 
           <ProjectItem

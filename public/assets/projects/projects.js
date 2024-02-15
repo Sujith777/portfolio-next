@@ -7,6 +7,7 @@ import bookingapp from "./bookingapp.png";
 import netflixClone from "./netflix-clone.png";
 import snapgram from "./snapgram.png";
 import ecommerce from "./ecommerce.png";
+import saas_app from "./saas-app.png";
 
 export {
   notflix,
@@ -18,4 +19,5 @@ export {
   netflixClone,
   snapgram,
   ecommerce,
+  saas_app,
 };
